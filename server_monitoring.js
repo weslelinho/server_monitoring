@@ -44,16 +44,14 @@ var options = {
   function getUrlContent(arg) {
       try {
         if (!args['url']) {
-            console.log("parameter --url is required");
-        
+            console.log("parameter --url is required\n");
         }
         if (!args['ip']) {
-          console.log("parameter --ip is required");
-        
+          console.log("parameter --ip is required\n");
       }
       if (!args['interval']) {
-        console.log("parameter --interval is required");
-      
+        console.log("parameter --interval is required\n");
+        console.log("inform the interval in miliseconds");
     }
 
       if (!args['ip'] || !args['url'] || !args['interval']) {
