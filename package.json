@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "forever-monitor": "^3.0.3",
-    "log4js": "^6.4.1"
+    "log4js": "^6.4.1",
+    "minimist": "^1.2.5"
   }
 }
