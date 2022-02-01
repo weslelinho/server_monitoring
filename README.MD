@@ -7,9 +7,9 @@ First I used on a project of a embed linux that runs a webserver to expose some 
 node server_monitoring.js  --ip 192.168.1.10 --url /teste --interval 1500
  
 
-### this software save the content returned in the url on a local file for further investigation/debug so take care with disk space 
+## this software save the content returned in the url on a local file for further investigation/debug so take care with disk space 
 
-### if you are experiencing some troubles runing this code and the attempts to retrieve url are causing this software to stop, this script was made to stress test the url so I recommend you to tryout with forever or forever-monitor
+if you are experiencing some troubles runing this code and the attempts to retrieve url are causing this software to stop, this script was made to stress test the url so I recommend you to tryout with forever or forever-monitor
 
 https://www.npmjs.com/package/forever-monitor
 or
